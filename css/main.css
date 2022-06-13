@@ -60,24 +60,32 @@ footer {
 
 @media (min-width: 768px) {
   header {
-    background-color:#A6E4C2 ;
+    background-color: ;
   }
 
   #column-1 {
-    background-color: navajowhite;
+    background-color: darkslategrey;
+
   }
 
   #column-2 {
     background-color: cornflowerblue;
+	
   }
 
   #column-3 {
     background-color: firebrick;
+	width: 100%;
+
   }
 
   footer {
-    background-color: antiquewhite;
+    background-color: ;
   }
+	
+	.col-3{
+		width: 50%;
+	}
   
 }
 
@@ -90,18 +98,26 @@ footer {
 
   #column-1 {
     background-color: forestgreen;
+
   }
 
   #column-2 {
     background-color: blueviolet;
+	  
   }
 
   #column-3 {
     background-color: papayawhip;
+	 width: 33.3%;
+	  
+	  
+	 
   }
 
   footer {
     background-color: ;
   }
-   
+	.col-3{
+		width: 33.3%;
+	}
 }
